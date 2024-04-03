@@ -87,10 +87,14 @@ body {
 
 .ac_btn{
     padding: 25px 40px;
-    background-color: aquamarine;
+    background-color: #18dcff;
     font-size: 1.6em;
     border-radius: 15px 0px 15px 0px;
     
+}
+
+.ac_btn:hover{
+    background-color: #7efff5;
 }
 
 @media only screen and (max-width: 750px){
