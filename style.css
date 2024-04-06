@@ -51,22 +51,41 @@ body {
     }
 }
 
+@media only screen and (max-width: 1366px) {
+    .title {
+        font-size: 2.2em;
+    }
+
+    .login {
+        text-align: center;
+        margin-top: 100px;
+    }
+
+    .btn {
+        padding: 15px 45px;
+        font-size: 1.8em;
+
+    }
+}
+
 /* index file */
 
 
 /* accounts file */
-.acc_field{
+.acc_field {
     display: grid;
     grid-template-columns: 1fr 1fr 1fr;
 }
-.acc_head{
+
+.acc_head {
     grid-column: 1/4;
     text-align: center;
     color: white;
     font-family: 'Segoe UI';
     font-size: 40px;
 }
-.office_expenses{
+
+.office_expenses {
     grid-column: 1/4;
     margin: 0 auto;
     margin-top: 30px;
@@ -75,7 +94,8 @@ body {
     border-radius: 0px 15px 0px 15px;
     box-sizing: border-box;
 }
-.fund{
+
+.fund {
     grid-column: 1/4;
     margin: 0 auto;
     margin-top: 30px;
@@ -85,35 +105,49 @@ body {
     box-sizing: border-box;
 }
 
-.ac_btn{
+.ac_btn {
     padding: 25px 40px;
     background-color: #18dcff;
     font-size: 1.6em;
     border-radius: 15px 0px 15px 0px;
-    
+
 }
 
-.ac_btn:hover{
+.ac_btn:hover {
     background-color: #7efff5;
 }
 
-@media only screen and (max-width: 750px){
-    .acc_head{
+@media only screen and (max-width: 750px) {
+    .acc_head {
         font-size: 20px;
     }
-    .office_expenses{
+
+    .office_expenses {
         margin-left: 20px;
         margin-right: 20px;
     }
-    .fund{
+
+    .fund {
         margin-left: 20px;
         margin-right: 20px;
     }
-    .ac_btn{
+
+    .ac_btn {
         padding: 25px 40px;
         background-color: aquamarine;
         font-size: 15px;
         border-radius: 15px 0px 15px 0px;
-        
+
+    }
+}
+
+@media only screen and (max-width: 1366px) {
+    .office_expenses {
+        padding: 25px;
+        border-radius: 0px 15px 0px 15px;
+    }
+    .fund{
+        padding: 25px;
+        border-radius: 0px 15px 0px 15px;
     }
 }
